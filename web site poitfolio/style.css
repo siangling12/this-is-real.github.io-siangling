@@ -1,0 +1,48 @@
+header {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 30px;
+font-weight: 30px;
+text-align: center;
+}
+.lol {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 17px;
+font-weight: 25px;
+text-align: start;
+}
+.king {
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 17px;
+font-weight: 24px;
+text-align: right;
+}
+nav{
+display: flex;
+width: 70%;
+margin: auto;
+padding: 20px 0;
+align-items: center;
+justify-content: space-between;
+}
+nav ul li {
+
+display: inline-block;
+list-style: none;
+margin: 10px 20px;
+}
+nav ul li a{
+text-decoration: none;
+color: #000;
+font-weight: bold;
+}
+nav ul li a:hover {
+color: red;
+}
+.laimi {
+background-image: url(image/images.jpeg);
+background-position: center;
+background-size: cover;
+}
+.logo {
+margin-left: center;
+}
